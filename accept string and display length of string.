@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  char s1[100];
+  int i,n=0;
+  printf("enter string");
+  fgets(s1,100,stdin);
+  for(i=0;s1[i]!='\0';i++)
+  {
+    n++;
+   }
+   printf("\n length of string=%d",n);
+}    
