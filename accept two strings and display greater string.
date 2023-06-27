@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  char s1[100],s2[100];
+  int i,j;
+  printf("enter first string");
+  fgets(s1,100,stdin);
+  printf("enter second string");
+  fgets(s2,100,stdin);
+  for(i=0;s1[i]!='\0';i++);
+  for(j=0;s1[j]!='\0';i++);
+  if(i>j)
+     printf("first string is greater=%s",s1);
+  else
+     printf("second string is greater=%s",s2);
+}        
